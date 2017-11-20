@@ -29,6 +29,15 @@ module.exports = {
 					} ,
 					'angular2-template-loader'
 				]
+			},
+			{
+				test: /\.html$/,
+				loader: 'html-loader'
+			},
+			{
+				test: /\.css$/,
+				include: path.resolve(__dirname, 'src/app'),
+				loader: 'raw-loader'
 			}
 		]
 	},
@@ -43,4 +52,4 @@ module.exports = {
 		}),
 		new UglifyJSPlugin()
 	]
-}
+};
