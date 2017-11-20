@@ -21,7 +21,9 @@ export class Item {
 })
 
 export class AppComponent {
+	
 	title: string = 'List shopping';
+	
 	items: Item[] = [
 		{ purchase: "Хлеб", done: false, price: 15.9 },
 		{ purchase: "Масло", done: false, price: 60 },
