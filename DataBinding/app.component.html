@@ -1,0 +1,37 @@
+<!--
+	One-sided data binding: variable
+================================== -->
+<h1>
+	Hello my Dear {{ name }}
+</h1>
+
+<!--
+	One-sided data binding: attr
+================================== -->
+<hr>
+<input
+	type="text"
+	[placeholder]="placeholder"
+>
+
+<!--
+	One-sided data binding: event
+================================== -->
+<hr>
+<button type="button" (click)="showMessage()"> Click me!</button>
+
+<!--
+	Two-sided data binding
+================================== -->
+<hr>
+<input
+	type="text"
+    [placeholder]="placeholder"
+	[(ngModel)]="value"
+	(keyup)="logChange()"
+>
+<p> Ok, lets keyUp input text... {{value}}</p>
+
+<hr>
+<p> Let's show count click: {{count}}</p>
+<button type="button" (click)="incCount($event)">Click and calculate count</button>
