@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 
 @Component({
 	selector: 'my-app',
-	templateUrl: 'appSetter.component.html',
+	templateUrl: 'Setter/appSetter.component.html',
 	styles: [``]
 })
 
