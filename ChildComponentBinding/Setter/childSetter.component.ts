@@ -14,9 +14,7 @@ export class ChildSetterComponent {
 	
 	@Input()
 	set userAge(age: number) {
-		this._userAge =
-			(age < 0) ? 0 :
-				(age > 100) ? 100 : age;
+		this._userAge = (age < 0) ? 0 : (age > 100) ? 100 : age;
 	}
 	
 	get userAge() {

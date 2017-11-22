@@ -10,7 +10,8 @@ import {Component, Input, Output, EventEmitter} from "@angular/core";
 
 export class ChildEventEmitterComponent {
 
-	@Output() onChanged = new EventEmitter<boolean>();
+	@Output() onChanged: EventEmitter<boolean> = new EventEmitter();
+	
 	change(increased: any) {
 		this.onChanged.emit(increased);
 	}

@@ -8,8 +8,9 @@ import {Component, EventEmitter, Input, Output} from "@angular/core";
 })
 
 export class ChildTwoSidedDataComponent {
+	
 	@Input() userName: string;
-	@Output() userNameChange = new EventEmitter<string>();
+	@Output() userNameChange: EventEmitter<string> = new EventEmitter();
 	
 	onNameChange(model: string) {
 		this.userName = model;

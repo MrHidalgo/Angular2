@@ -17,8 +17,8 @@ export class AppComponent {
 	/*
 	* Setter
 	* */
-	name:string="Tom";
-	age:number = 1000;
+	// name:string="Tom";
+	// age:number = 1000;
 	
 	/*
 	* EventEmitter
