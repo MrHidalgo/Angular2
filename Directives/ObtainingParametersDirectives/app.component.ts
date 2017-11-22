@@ -5,9 +5,10 @@ import {Component} from '@angular/core';
 	template: `
 		<div>
 			<p 
-				bold
-			>
-				Hello Angular 2</p>
+				bold 
+				[selectedSize]="'28px'" 
+				[defaultSize]="'14px'"
+			>Hello Angular 2</p>
 		</div>
 	`,
 	styles: [`
