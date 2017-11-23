@@ -10,12 +10,11 @@
 
 - Если значение в поле ввода корректно, то применяется класс *ng-valid*. Если же значение некорректно, то применяется класс *ng-invalid*.
 
-
+##	
 	<input class="form-control" name="title" [(ngModel)]="title" />	
 	<input class="form-control ng-untouched ng-pristine ng-valid" name="title" ng-reflect-name="title" />
 	
 ##
-
 В *Angular 2* можем использовать валидацию *HTML5*, которая применяется в виде атрибутов:
 
 - *required*: требует обязательного ввода значения.
