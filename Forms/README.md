@@ -12,7 +12,6 @@
 
 
 	<input class="form-control" name="title" [(ngModel)]="title" />	
-	=>
 	<input class="form-control ng-untouched ng-pristine ng-valid" name="title" ng-reflect-name="title" />
 	
 ##
