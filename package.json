@@ -23,7 +23,7 @@
 		"@types/node": "^8.0.47",
 		"typescript": "^2.6.0",
 		"webpack": "^3.6.0",
-		"webpack-dev-server": "^2.9.1",
+		"webpack-dev-server": "^3.1.11",
 		"angular2-template-loader": "^0.6.2",
 		"awesome-typescript-loader": "^3.3.0",
 		"uglifyjs-webpack-plugin": "^1.0.1",
